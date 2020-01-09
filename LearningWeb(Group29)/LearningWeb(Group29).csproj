@@ -92,7 +92,11 @@
     <Content Include="admin.aspx" />
     <Content Include="adminInformation.aspx" />
     <Content Include="Global.asax" />
+<<<<<<< HEAD
     <Content Include="ParentLogin.aspx" />
+=======
+    <Content Include="Homepage.aspx" />
+>>>>>>> 9e63d910d4aeda037ca85c97e17fd0a64aa5b355
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,12 +125,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ParentLogin.aspx.cs">
       <DependentUpon>ParentLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ParentLogin.aspx.designer.cs">
       <DependentUpon>ParentLogin.aspx</DependentUpon>
+=======
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+>>>>>>> 9e63d910d4aeda037ca85c97e17fd0a64aa5b355
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
