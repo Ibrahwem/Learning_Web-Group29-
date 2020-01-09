@@ -90,6 +90,7 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="admin.aspx" />
+    <Content Include="adminInformation.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -107,6 +108,13 @@
     </Compile>
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminInformation.aspx.cs">
+      <DependentUpon>adminInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminInformation.aspx.designer.cs">
+      <DependentUpon>adminInformation.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
